@@ -1,0 +1,26 @@
+.btn{
+    outline: none;
+}
+
+.like-button{
+    position: absolute;
+    /*transform:translateX(5px);*/
+}
+
+.like-button:hover{
+    background: #5cb85c;
+    color:white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+@keyframes like-scale {
+    0%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+
+    }
+}
